@@ -1,0 +1,7 @@
+go 1.23.1
+
+use ./dummy_web
+
+// we can point this to a local version of getString if we are making changes
+// to a depending library
+use ./dummy_domain
